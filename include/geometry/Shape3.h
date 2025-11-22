@@ -1,3 +1,4 @@
+#pragma once
 #include "SharedObject.h"
 #include "Ray.h"
 #include "Vector3.h"

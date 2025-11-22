@@ -1,3 +1,4 @@
+#pragma once
 #include "SharedObject.h"
 #include "Ray.h"
 class Actor; //Foward declaration para evitar inclusão circular
