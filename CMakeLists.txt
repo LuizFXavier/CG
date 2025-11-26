@@ -32,9 +32,10 @@ include_directories(
 )
 
 add_executable(CG
-        src/Main.cpp
-        src/MainWindow.cpp
-)
+${CMAKE_CURRENT_SOURCE_DIR}/src/Main.cpp
+${CMAKE_CURRENT_SOURCE_DIR}/src/graphics/MainWindow.cpp
+${CMAKE_CURRENT_SOURCE_DIR}/src/graphics/RayCast.cpp)
+
 
 find_package(OpenGL REQUIRED)
 
