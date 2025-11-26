@@ -1,6 +1,6 @@
 #pragma once
-#include "SharedObject.h"
-#include "Ray.h"
+#include "core/SharedObject.h"
+#include "geometry/Ray.h"
 class Actor; //Foward declaration para evitar inclusão circular
 
 struct Intersection{
